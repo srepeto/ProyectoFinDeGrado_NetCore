@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TCTe8qdTcZrZl5HFrBpsFzFa5RavznjVBloQRPAGbit4YIVk0NHjyQ9F+qUiQyVZ9HbrSaol1YXJZJ4WtGrdRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sara\\Desktop\\versiones\\SaraRepeto_BancoSangre\\BancoSangreSQL\\BancoSangre.Domain\\BancoSangre.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sara\\.nuget\\packages\\nodatime\\3.0.5\\nodatime.3.0.5.nupkg.sha512",
+    "C:\\Users\\Sara\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

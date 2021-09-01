@@ -1,0 +1,7 @@
+D:\Escritorio\Grado\SEGUNDO\ProyectoIntegrado\Proyecto\BancoSangreSQL\BancoSangre.WPF\bin\Release\net5.0-windows\publish\BancoSangre.WPF.pdb
+D:\Escritorio\Grado\SEGUNDO\ProyectoIntegrado\Proyecto\BancoSangreSQL\BancoSangre.WPF\bin\Release\net5.0-windows\publish\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio\Grado\SEGUNDO\ProyectoIntegrado\Proyecto\BancoSangreSQL\BancoSangre.WPF\bin\Release\net5.0-windows\publish\Microsoft.Data.SqlClient.SNI.pdb
+D:\Escritorio\Grado\SEGUNDO\ProyectoIntegrado\Proyecto\BancoSangreSQL\BancoSangre.WPF\bin\Release\net5.0-windows\publish\sni.dll
+D:\Escritorio\Grado\SEGUNDO\ProyectoIntegrado\Proyecto\BancoSangreSQL\BancoSangre.WPF\bin\Release\net5.0-windows\publish\BancoSangre.Domain.pdb
+D:\Escritorio\Grado\SEGUNDO\ProyectoIntegrado\Proyecto\BancoSangreSQL\BancoSangre.WPF\bin\Release\net5.0-windows\publish\BancoSangre.EntityFramework.pdb
+D:\Escritorio\Grado\SEGUNDO\ProyectoIntegrado\Proyecto\BancoSangreSQL\BancoSangre.WPF\bin\Release\net5.0-windows\publish\BancoSangre.WPF.exe

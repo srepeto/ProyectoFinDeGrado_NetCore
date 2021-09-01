@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.WPF\\BancoSangre.WPF.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.Domain\\BancoSangre.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.Domain\\BancoSangre.Domain.csproj",
+        "projectName": "BancoSangre.Domain",
+        "projectPath": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.Domain\\BancoSangre.Domain.csproj",
+        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "P:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.1.0.54\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.1.0.54\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.EntityFramework\\BancoSangre.EntityFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.EntityFramework\\BancoSangre.EntityFramework.csproj",
+        "projectName": "BancoSangre.EntityFramework",
+        "projectPath": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.EntityFramework\\BancoSangre.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.EntityFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "P:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.1.0.54\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.1.0.54\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.Domain\\BancoSangre.Domain.csproj": {
+                "projectPath": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.Domain\\BancoSangre.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.WPF\\BancoSangre.WPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.WPF\\BancoSangre.WPF.csproj",
+        "projectName": "BancoSangre.WPF",
+        "projectPath": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.WPF\\BancoSangre.WPF.csproj",
+        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.WPF\\obj\\publish\\win-x64\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "P:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.1.0.54\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.1.0.54\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.Domain\\BancoSangre.Domain.csproj": {
+                "projectPath": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.Domain\\BancoSangre.Domain.csproj"
+              },
+              "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.EntityFramework\\BancoSangre.EntityFramework.csproj": {
+                "projectPath": "C:\\Users\\Sara\\Desktop\\versiones\\14\\BancoSangreSQL\\BancoSangre.EntityFramework\\BancoSangre.EntityFramework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Bold.Licensing": {
+              "target": "Package",
+              "version": "[2.4.30, )"
+            },
+            "BoldReports.WPF": {
+              "target": "Package",
+              "version": "[2.4.30, )"
+            },
+            "Dragablz": {
+              "target": "Package",
+              "version": "[0.0.3.223, )"
+            },
+            "LiveCharts.NetCore": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[19.1.0.56, )"
+            },
+            "Syncfusion.SfGrid.WPF": {
+              "target": "Package",
+              "version": "[19.1.0.56, )"
+            },
+            "Syncfusion.SfSkinManager.WPF": {
+              "target": "Package",
+              "version": "[19.1.0.56, )"
+            },
+            "syncfusion.ui.wpf.net": {
+              "target": "Package",
+              "version": "[19.1.0.56, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

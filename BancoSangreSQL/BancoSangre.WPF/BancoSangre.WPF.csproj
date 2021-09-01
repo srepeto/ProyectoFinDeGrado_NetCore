@@ -1,0 +1,91 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <None Remove="bin\**" />
+    <Page Remove="bin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Editar.png" />
+    <None Remove="Editarheader.png" />
+    <None Remove="Eliminar.png" />
+    <None Remove="Eliminarheader.png" />
+    <None Remove="fondo.png" />
+    <None Remove="fondo2.png" />
+    <None Remove="Logo.png" />
+    <None Remove="Logo2.png" />
+    <None Remove="Portada.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bold.Licensing" Version="2.4.30" />
+    <PackageReference Include="BoldReports.WPF" Version="2.4.30" />
+    <PackageReference Include="Dragablz" Version="0.0.3.223" />
+    <PackageReference Include="LiveCharts.NetCore" Version="0.9.7" />
+    <PackageReference Include="MaterialDesignColors" Version="2.0.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.0.0" />
+    <PackageReference Include="Syncfusion.Licensing" Version="19.1.0.56" />
+    <PackageReference Include="Syncfusion.SfGrid.WPF" Version="19.1.0.56" />
+    <PackageReference Include="Syncfusion.SfSkinManager.WPF" Version="19.1.0.56" />
+    <PackageReference Include="syncfusion.ui.wpf.net" Version="19.1.0.56" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BancoSangre.Domain\BancoSangre.Domain.csproj" />
+    <ProjectReference Include="..\BancoSangre.EntityFramework\BancoSangre.EntityFramework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Editar.png" />
+    <Resource Include="Editarheader.png" />
+    <Resource Include="Eliminar.png" />
+    <Resource Include="Eliminarheader.png" />
+    <Resource Include="fondo2.png" />
+    <Resource Include="Logo.png" />
+    <Resource Include="Logo2.png" />
+    <Resource Include="Portada.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources2\Reportes.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Reportes.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Reportes.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Reportes.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources2\Reportes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Reportes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Reportes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Reportes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
