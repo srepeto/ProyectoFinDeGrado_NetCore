@@ -1,7 +1,7 @@
 # Banco de sangre
 
 Aplicación para la gestión de un banco de sangre realizada con .NET Core (5.0)
-<br></br>
+
 Estas son las tecnologías utilizadas:
 
 <table>
@@ -36,7 +36,7 @@ Estas son las tecnologías utilizadas:
   <tr>
     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1024px-.NET_Core_Logo.svg.png" width="40%" height="40%"></td>
     <td align="center"><img src="https://www.dataprix.com/files/uploads/103image/logo_sqlserver.png" width="80%" height="80%"></td>
-    <td align="center"><img src="https://lh3.googleusercontent.com/proxy/UDiRtaGJyklsHQeW5LZKcKKmxBSPHG1qHGhUpdhY_I7hPp4HFQbZcCe7PC6wZPeoXHXRYXaOMwUL7yNo3JjCG0C7yPPlQUBVsD0" width="80%" height="80%"></td>
+    <td align="center"><img src="http://materialdesigninxaml.net/images/MD4XAML.png" width="70%" height="70%"></td>
     <td align="center"><img src="https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_Logo_Image.png" width="80%" height="80%"></td>
     <td align="center"><img src="https://assets-global.website-files.com/6009f6f109d51e60b911ba53/606e2c19fbba751849f85f40_mockaroo-logo.png" width="90%" height="90%"></td>
   </tr>
@@ -48,21 +48,21 @@ La aplicación está dividida en 4 pestañas:
 - Reportes
 - Dashboard
 - Compatibilidad
-<br></br>
+
 ### 1. Gestión de datos
 Se gestionan tanto los datos de los donantes como de las donaciones que éstos han realizado. Aparte de contar con un CRUD, he implementado un sistema de búsqueda avanzado y un sistema de filtros especializado.
 
 ##### DONANTES
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_1.jpg" width="40%" height="40%"> <img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_2.jpg" width="40%" height="40%">
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_3.jpg" width="40%" height="40%"> <img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_4.jpg" width="40%" height="40%">
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_5.jpg" width="40%" height="40%"> <img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_6.jpg" width="40%" height="40%">
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_7.jpg" width="40%" height="40%"> <img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_8.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_1.jpg" width="40%" height="40%"> <img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_2.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_3.jpg" width="40%" height="40%"> <img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_4.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_5.jpg" width="40%" height="40%"> <img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_6.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_7.jpg" width="40%" height="40%"> <img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_8.jpg" width="40%" height="40%">
 
 ##### DONACIONES
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_Donacion_1.jpg" width="40%" height="40%"> <img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_Donacion_2.jpg" width="40%" height="40%">
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_Donacion_3.jpg" width="40%" height="40%"> <img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_Donacion_4.jpg" width="40%" height="40%">
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_Donacion_5.jpg" width="40%" height="40%"> <img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_Donacion_6.jpg" width="40%" height="40%">
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/GestionDatos_Donacion_7.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_Donacion_1.jpg" width="40%" height="40%"> <img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_Donacion_2.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_Donacion_3.jpg" width="40%" height="40%"> <img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_Donacion_4.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_Donacion_5.jpg" width="40%" height="40%"> <img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_Donacion_6.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/GestionDatos_Donacion_7.jpg" width="40%" height="40%">
 
 ### 2. Reportes
 Se pueden crear reportes tanto de los donantes como de las donaciones seleccionando los filtros deseados. Además, es posible exportar el documento en los siguientes formatos:
@@ -73,14 +73,14 @@ Se pueden crear reportes tanto de los donantes como de las donaciones selecciona
 + PDF
 + DOC
 
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/Reportes.jpg" width="40%" height="40%"> <img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/Reportes_2.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/Reportes.jpg" width="40%" height="40%"> <img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/Reportes_2.jpg" width="40%" height="40%">
 
 ### 3. Dashboard
 Este apartado nos ofrece información visual tanto de las cantidades de sangre que quedan en el inventario, como de la cantidad de donantes regulares de los que dispone el centro.
 
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/Dashborad_1.jpg" width="40%" height="40%"> <img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/Dashborad_2.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/Dashborad_1.jpg" width="40%" height="40%"> <img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/Dashborad_2.jpg" width="40%" height="40%">
 
 ### 4. Compatibilidad
 Se muestra la compatibilidad entre los diferentes tipos de sangre.
 
-<img src="https://github.com/srepeto/ProyectoFinDeGrado_NetCore/blob/master/Capturas/Compatibilidad.jpg" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/srepeto/ProyectoFinDeGrado_NetCore/master/Capturas/Compatibilidad.jpg" width="40%" height="40%">
